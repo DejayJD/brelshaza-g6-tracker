@@ -23,7 +23,6 @@ import "react-toggle/style.css";
 import type { LinksFunction } from "@remix-run/node";
 import { CountdownTimer } from "~/components/CountdownTimer";
 import dayjs from "dayjs";
-import { clearTimeout } from "timers";
 import { CircleIcon } from "~/components/CircleIcon";
 
 type Tile = {
